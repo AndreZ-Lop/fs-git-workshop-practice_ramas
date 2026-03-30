@@ -1,1 +1,7 @@
 Había una vez un desarrollador que quería aprender a usar Git.
+
+Capítulo 1: El comienzo
+=======================
+Abrió la terminal y todo comenzó.
+
+-> [Línea temporal a completar por el autor] <-
