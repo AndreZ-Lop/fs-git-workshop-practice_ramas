@@ -1,6 +1,6 @@
 # Taller Práctico de Git
 
-¡Bienvenido a la práctica del taller de Git! Este repositorio ha sido preparado con un historial, ramas y algunos problemas intencionales para que apliques todos los conocimientos adquiridos. 
+¡Bienvenido a la práctica del taller de Git! Este repositorio ha sido preparado con un historial, ramas y algunos problemas intencionales para que apliques todos los conocimientos adquiridos.
 
 Aquí utilizarás comandos de exploración, manipulación del historial, creación de archivos ignorados y resolución de conflictos. Todo utilizando únicamente archivos de texto.
 
@@ -13,15 +13,18 @@ Sigue las instrucciones paso a paso.
 Acabas de clonar/abrir este repositorio. Tu primer objetivo es entender en qué estado se encuentra y qué se ha hecho antes de que llegaras.
 
 1. Abre tu terminal en esta carpeta (`fs-git-workshop-practice`).
-2. Usa `git status` para ver el estado actual. Notarás que hay archivos sin rastrear (untracked) como `sistema.log` y `errores.log`.
+2. Usa `git status` para ver el estado actual.
 3. Usa `git branch` para ver en qué rama estás y qué otras ramas existen. (Pista: notarás que hay una rama llamada `borrador`).
 4. Usa `git log --oneline` o `git log --graph --oneline --all` para ver el historial de commits. Observa los mensajes de los commits, hay un par que llaman la atención.
+5. Crea dos archivos: `errores.log` y `sistema.log`
+6. En el archivo `errores.log` agrega la linea "Error en la linea 1" con un editor de texto y guarda el archivo.
+7. En el archivo `system.log` agrega la linea "Sistema inicializado" con un editor de texto y guarda el archivo.
 
 ---
 
 ## Misión 2: Eliminar el último error (usando `git reset`)
 
-El último commit realizado en la rama `main` tiene el mensaje **"Capítulo 4 con un error tipográfico horrible"**. Resulta que ese capítulo es un desastre y no queremos que quede rastro de él en nuestro entorno local. 
+El último commit realizado en la rama `main` tiene el mensaje **"Capítulo 4 con un error tipográfico horrible"**. Resulta que ese capítulo es un desastre y no queremos que quede rastro de él en nuestro entorno local.
 
 1. Como este commit es el más reciente (está de primero en tu `git log`), puedes eliminarlo por completo utilizando un reinicio "duro".
 2. Ejecuta:
